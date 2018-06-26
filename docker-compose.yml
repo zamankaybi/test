@@ -9,7 +9,7 @@ services:
     volumes:
       - ./frontend/src:/app/src # for watching files
     ports:
-      - "4200:4200"
+      - "3500:3500"
   backend:
     image: backend-flask
     build:
